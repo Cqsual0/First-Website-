@@ -1,0 +1,202 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.nav {
+  border-bottom: 7px solid #161616;
+  background: linear-gradient(to bottom, #000000 0%, #0b0b0b 100%);
+  margin: 0;
+  box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.75);
+  z-index: 99999;
+  height: 65px;
+  z-index: 9999;
+  position: relative;
+  width: 100%;
+  min-width: 490px;
+  top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav #navUL {
+  list-style-type: none;
+  font-size: 17px;
+  margin: 0;
+  display: flex;
+  color: white;
+}
+
+.nav ul li {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 7px solid transparent;
+  text-align: center;
+  transition: .2s ease-in-out;
+  -webkit-transform: .2s ease-in-out;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 24px;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 3px 0 0;
+  height: 36px;
+  border-right: .11px solid rgba(36, 36, 36, 0.712);
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.nav ul li:hover {
+  border-bottom: 7px solid rgb(165, 101, 207);
+}
+
+.header {
+  text-align: center;
+  color: white;
+}
+
+#navUL img {
+  width: 50px;
+  position: relative;
+  bottom: 20px;
+}
+
+button {
+  border-radius: 5px;
+  border: 1px solid rgb(165, 101, 207);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.25);
+  padding: 15px;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  text-transform: uppercase;
+  border: 1px solid rgb(165, 101, 207);
+  font-size: 14px;
+  transition: .2s ease-in-out;
+  -webkit-transition: .2s ease-in-out;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: rgb(165, 101, 207);
+  color: white;
+}
+
+.second p {
+  color: white;
+  font-weight: bold;
+}
+
+.second {
+  padding-bottom: 400px;
+  min-height: 330px;
+  min-width: 490px;
+  border-bottom: 1px solid rgb(165, 101, 207);
+  ;
+}
+
+.fourth {
+  background-color: #080808;
+  border-top: 1px solid #191919;
+  background-size: 1440px;
+  color: white;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  min-width: 490px;
+}
+
+.fourth ul {
+  list-style-type: none;
+  min-width: 490px;
+  padding: 0;
+  margin: 0;
+}
+
+.fourth ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.fourth ul h4 {
+  color: #9b9b9b;
+  font-weight: 500;
+  margin-bottom: -15px;
+}
+
+.fourth ul a {
+  margin: auto;
+  margin-left: 20px;
+}
+
+#logo img {
+  width: 100px;
+  margin-top: 20px;
+  padding: 0;
+}
+
+#logo {
+  padding: 0;
+}
+
+.fourth li a {
+  margin: 0;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.fourth li a:hover {
+  color: rgb(165, 101, 207);
+}
+
+#login:hover {
+  border-bottom: 5px solid rgb(165, 101, 207);
+}
+
+@media only screen and (max-width: 600px) {
+  #login {
+    float: left;
+    top: 10px;
+    border: 1px solid white;
+    padding: 10px;
+  }
+}
+
+.cards {
+  border: solid black 3px;
+  position: absolute;
+  width: 17%;
+  border-radius: 5px;
+  border-radius: 5px;
+  margin: 40px;
+  box-shadow: 2px 2px 10px black;
+  z-index: 10;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.title {
+  text-align: center;
+}
+
+.des {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.des button {
+  margin-top: 5px;
+}
