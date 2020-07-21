@@ -185,6 +185,8 @@ button:hover {
   min-width: 490px;
   cursor: default;
 }
+
+
 .minecraft-render img{
   width: 468px;
     height: auto;
@@ -517,6 +519,16 @@ border-bottom: 1px solid rgb(255 255 255);
     width: 481px;
     min-width: 481px;
   }
+  .content {
+    position: relative;
+    z-index: 99999;
+    margin: 0;
+    padding-left: 40px;
+    text-align: left;
+    margin-top: 60px;
+    height: 100%;
+    min-width: 490px;
+    cursor: default;
 }
 
 @media (max-width: 480px) {
