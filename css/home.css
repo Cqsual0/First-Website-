@@ -156,7 +156,7 @@ button {
     line-height: 1;
     font-size: 14px;
     font-weight: bold;
-    font-family: Montserrat,sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     text-align: center;
     background-color: #0066d0;
@@ -273,6 +273,8 @@ li #caption1, #caption2 {
 }
 
 .third {
+  top: -280px;
+  position: relative;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -305,6 +307,8 @@ li #caption1, #caption2 {
   margin: 0;
   text-align: left;
   min-width: 490px;
+  position: relative;
+  top: -280px;
 }
 
 .fourth ul {
@@ -486,12 +490,136 @@ border-bottom: 1px solid rgb(255 255 255);
 
 
 
-.container {
-  width: 1345px;
-  min-width: 1345px;
-  margin: 0 auto;
-  padding-top: 240px;
+
+.pricing-row{
+  padding-bottom: 40px;
+  position: relative;
+  top: -330px;
 }
+.pricing-features{
+  margin: 30px;
+}
+.pricing-boxes{
+  display: flex;
+}
+.services-title {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 27px;
+    display: block;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.services-desc {
+    color: rgba(256, 256, 256, .75);
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-top: 15px;
+    padding: 30px 0;
+    width: 65%;
+    margin-bottom: 0;
+}
+
+.what-offer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.what-offer-hr {
+    width: 80px;
+    border: 0.7px solid rgba(256, 256, 256, .1);
+    background-color: rgba(256, 256, 256, .1);
+    margin: -4px 15px 0;
+    padding: 0;
+    position: relative;
+    top: -2px;
+    display: inline-block;
+}
+
+.what-offer-num {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.service-icon {
+    display: block;
+    width: 45px;
+    margin-top: 10px;
+}
+
+.service-hr {
+    border: 1px solid #6747E8;
+    background-color: #6747E8;
+    width: 20px;
+    margin: 20px 9px 0 0;
+    position: relative;
+    top: -2px;
+    display: inline-block;
+}
+
+.service-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    margin-top: 24px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.service-starting-at {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    color: rgba(256, 256, 256, .65);
+}
+
+.service-price {
+    font-size: 23px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.service-price span {
+    color: rgba(256, 256, 256, .5) !important;
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+.view-plans {
+    display: block;
+    margin-top: 40px;
+    width: 140px;
+    background-color: #6747E8;
+    color: white;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 12px 0;
+    transition: all .2s ease-out;
+}
+
+.view-plans:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #6042db;
+}
+
+
+
+
+
+
+
+
 
 @media (max-width: 1440px) {
   .container {
