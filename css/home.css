@@ -523,7 +523,7 @@ border-bottom: 1px solid rgb(255 255 255);
 }
 .testimonial{
   padding: 30px;
-  border: 0.1px solid #98a7ff;
+  border: 2px solid #fff;
 }
 .testimonial img{
   width: 100px;
@@ -578,12 +578,24 @@ border-bottom: 1px solid rgb(255 255 255);
     width: 767px;
     min-width: 767px;
   }
+  .discord img{
+    width: 40px;
+    position: relative;
+    top: 115px;
+    left: 380px;
+  }
 }
 
 @media (max-width: 768px) {
   .container {
     width: 481px;
     min-width: 481px;
+  }
+  .discord img{
+    width: 40px;
+    position: relative;
+    top: 160px;
+    left: 420px;
   }
   .content {
     position: relative;
@@ -720,5 +732,13 @@ border-bottom: 1px solid rgb(255 255 255);
     color: rgb(165, 101, 207);
     font-size: 24px;
 }
+
+.discord img{
+  width: 40px;
+  position: relative;
+  top: -20px;
+  left: 1600px;"
+}
+
 
 /* End services */
