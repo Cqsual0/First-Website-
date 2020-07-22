@@ -564,12 +564,24 @@ border-bottom: 1px solid rgb(255 255 255);
     width: 1153px;
     min-width: 1153px;
   }
+  .discord img{
+    width: 40px;
+    position: relative;
+    top: 160px;
+    left: 420px;
+  }
 }
 
 @media (max-width: 1152px) {
   .container {
     width: 961px;
     min-width: 961px;
+  }
+  .discord img{
+    width: 40px;
+    position: relative;
+    top: 160px;
+    left: 420px;
   }
 }
 
@@ -641,6 +653,14 @@ border-bottom: 1px solid rgb(255 255 255);
   justify-content: space-between;
   align-items: flex-start;
 }
+
+.fourth img{
+  width: 40px;
+  position: relative;
+  top: -20px;
+  left: 1600px;"
+}
+
 
 .features .features-inner .features-content {
   width: 33%;
@@ -733,12 +753,6 @@ border-bottom: 1px solid rgb(255 255 255);
     font-size: 24px;
 }
 
-.discord img{
-  width: 40px;
-  position: relative;
-  top: -20px;
-  left: 1600px;"
-}
 
 
 /* End services */
