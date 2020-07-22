@@ -265,7 +265,7 @@ li #caption1, #caption2 {
 }
 
 .second {
-  top: 315px;
+  top: -350px;
   position: relative;
   min-height: 550px;
   min-width: 490px;
@@ -492,7 +492,7 @@ border-bottom: 1px solid rgb(255 255 255);
 
 .testimonials{
   padding: 40px 0;
-  background: #f1f1f1;
+  background: #06080c;
   color: #434343;
   text-align: center;
 }
@@ -506,7 +506,7 @@ border-bottom: 1px solid rgb(255 255 255);
 .border{
   width: 160px;
   height: 5px;
-  background: #6ab04c;
+  background: #2d6eff;
   margin: 26px auto;
 }
 
@@ -522,8 +522,8 @@ border-bottom: 1px solid rgb(255 255 255);
   padding: 15px;
 }
 .testimonial{
-  background: #fff;
   padding: 30px;
+  border: 0.1px solid #98a7ff;
 }
 .testimonial img{
   width: 100px;
@@ -536,7 +536,7 @@ border-bottom: 1px solid rgb(255 255 255);
   margin: 20px 0;
 }
 .stars{
-  color: #6ab04c;
+  color: #2d65ff;
   margin-bottom: 20px;
 }
 
