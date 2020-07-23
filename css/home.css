@@ -336,7 +336,6 @@ li #caption1, #caption2 {
 
 #logo img {
   width: 100px;
-  margin-top: 20px;
   padding: 0;
 }
 
@@ -564,12 +563,6 @@ border-bottom: 1px solid rgb(255 255 255);
     width: 1153px;
     min-width: 1153px;
   }
-  .discord img{
-    width: 40px;
-    position: relative;
-    top: 160px;
-    left: 420px;
-  }
 }
 
 @media (max-width: 1152px) {
@@ -634,11 +627,6 @@ border-bottom: 1px solid rgb(255 255 255);
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-}
-
-#discord img{
-  width: 40px;
-  height: auto;
 }
 
 .features .features-inner .features-content {
@@ -730,7 +718,23 @@ border-bottom: 1px solid rgb(255 255 255);
     font-weight: 900;
     font-size: 24px;
 }
+}
 
+#discord img {
+  width: 48px !important;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+@media screen and (max-width: 960px) {
+  #discord img{
+    width: 48px !important;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    margin: 0px 10px auto;
+  }
+}
 
 
 /* End services */
