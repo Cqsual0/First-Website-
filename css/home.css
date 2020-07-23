@@ -636,13 +636,10 @@ border-bottom: 1px solid rgb(255 255 255);
   align-items: flex-start;
 }
 
-.fourth img{
+#discord img{
   width: 40px;
-  position: relative;
-  top: -20px;
-  left: 1600px;"
+  height: auto;
 }
-
 
 .features .features-inner .features-content {
   width: 33%;
