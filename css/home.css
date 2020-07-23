@@ -324,6 +324,7 @@ li #caption1, #caption2 {
 }
 
 .fourth ul h4 {
+  padding-right: 50px;
   color: #9b9b9b;
   font-weight: 500;
   margin-bottom: -15px;
