@@ -210,6 +210,11 @@ a {
   box-shadow: 18px 16px 46px -8px rgba(21, 21, 21, 0.69)
 }
 
+.box i{
+  width: 20px;
+  height: auto;
+}
+
 .box hr{
   border: 4px solid rgb(0, 255, 106);
 }
