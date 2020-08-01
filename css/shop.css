@@ -1,10 +1,15 @@
-body {
-  position: relative;
-  height: 1000px;
-  overflow: overlay;
+*{
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: overlay;
   background-color: black;
 }
 
@@ -743,107 +748,152 @@ border-bottom: 1px solid rgb(255 255 255);
 
 /* End services */
 
-
-.back{
-  background-color: #55a;
-  width: 100%;
-  height: 80%;
-  clip-path: polygon(0 0, 100% 40%, 0 100%)
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.main{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.box{
-  width: 300px;
-  height: 500px;
-  background-color: #fff;
+.container{
   position: relative;
-  left: 50px;
-  top: 50px;
-  z-index: 1;
-  box-shadow: 18px 16px 46px -8px rgba(21, 21, 21, 0.69)
+  z-index: 100;
 }
-
-.box i{
-  width: 20px;
-  height: auto;
+.container .card{
+  position: relative;
+  width: 300px;
+  height: 550px;
+  background: #ebf4f4;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 30px;
 }
-
-.box hr{
-  border: 4px solid rgb(0, 255, 106);
+.content-1{
+  position: relative;
+  width: 100%;
+  height: 35%;
+  background-image: linear-gradient(to bottom right,
+    #0a52af,
+    #1270ea);
 }
-
-.box :nth-child(2) hr{
-  border: 4px solid rgb(255, 0, 0);
+.content-1::after{
+  content: 'PLAY';
+  position: relative;
+  left: 28%;
+  top: 20%;
+  font-size: 5.5em;
+  font-weight: 800;
+  color: #c1d4ec34;
+  -webkit-text-fill-color: rgba(49, 108,185, 0.231);
+  -webkit-text-stroke-width: 2px;
 }
-
-.box :nth-child(3) hr{
-  border: 4px solid rgb(246, 250, 38);
-}
-
-.content2{
-  padding: 0 30px;
-  text-align: center
-}
-
-.content2 i {
-  font-size: 60px;
-  margin-top: 30px;
-  color: rgb(49, 49, 49);
-}
-
-.content2 h2{
+.content-1 .arrow-left{
+  position: absolute;
+  top: 8%;
+  left: 6%;
+  color: #e2e2e2;
   font-size: 20px;
-  margin-top: 20px;
-  text-transform: uppercase;
-  color: rgb(73, 73, 73);
-}
-
-.text{
-  margin-top: 50px;
-}
-
-.content2 h5{
-  color: #999;
-  font-weight: lighter;
-  letter-spacing: 2px;
-}
-
-.content2 h5 span{
-  color: rgb(73, 73, 73);
-  font-weight: 600;
-}
-
-.price .dollar{
-  display: inline-block;
-  font-size: 18px;
-  transform: translate(3px -15px);
-  color: #333;
-}
-
-.price p span{
-  font-size: 50px;
-  font-weight: bold;
-  color: rgb(44, 43, 43);
-}
-.price p{
-  display: inline-block;
-  font-style: 16px;
-  color: rgb(144, 144, 114);
-}
-
-.content2 button{
-  text-transform: uppercase;
-  border: none;
-  padding: 10px 35px;
-  border-radius: 50px;
-  background-color: #55a;
-  color: #fff;
   cursor: pointer;
+}
+.content-1 span{
+  position: absolute;
+  top: 8%;
+  right: 6%;
+  color: #e2e2e2;
+  font-size: 20px;
+  cursor: pointer;
+}
+.heart i.fa-heart{
+  color: #f00c0c;
+}
+.content-1 .main-image img{
+  width: 250px;
+  height: 200px;
+  top: 26%;
+  position: absolute;
+  left: 8%;
+  z-index: 100;
+}
+.content-2{
+  height: 120px;
+}
+.content-2 .sub-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-2 .sub-image img{
+  width: 30px;
+  height: 30px;
+  margin: 70px 7px 0px;
+  padding: 5px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow:
+  -10px -10px 10px rgba(230, 244, 244, 0.5),
+  5px 5px 5px rgba(70, 70, 70, 0.12);
+  cursor: pointer;
+  border: 1.5px solid #fff;
+}
+.content-2 .sub-image img:hover{
+  border: 1.5px solid #0b67df;
+}
+.content-3{
+  position: relative;
+  padding: 5px 20px 10px;
+}
+.branding span:nth-child(1){
+  font-size: 18px;
+  font-weight: 400;
+}
+.branding h4{
+  font-size: 12px;
+  font-weight: 500;
+  color: #464444;
+}
+.ratings span{
+  display: inline-block;
+  text-align: center;
+  line-height: 26px;
+  font-size: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+  color: #fcba26;
+}
+.ratings span:nth-child(5){
+  color: #a7a7a3;
+}
+.paragraph p{
+  font-size: 11.5px;
+  color: #000;
+  font-weight: 500;
+}
+.paragraph span{
+  color: #0b67df;
+  font-weight: 700;
+  cursor: pointer;
+}
+.price span{
+  font-size: 25px;
+  font-weight: 500px;
+}
+.price{
+  display: flex;
+  margin: 30px 0 10px;
+}
+.space{
+  flex: 1;
+}
+.price span:nth-child(1){
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 3px;
+  margin-right: 5px;
+}
+.price a{
+  font-size: 12px;
+  text-decoration: none;
+  border: none;
+  background-image: linear-gradient(to right,
+    #0a52af,
+    rgba(18,112,234));
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    cursor: pointer;
 }
