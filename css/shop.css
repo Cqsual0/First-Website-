@@ -73,8 +73,6 @@ a {
   margin: 0;
   text-align: left;
   min-width: 490px;
-  position: relative;
-  top: -280px;
 }
 
 .fourth ul {
@@ -157,9 +155,10 @@ a {
   text-align: center;
   font-size: 16px;
   font-family: Montserrat;
-  float: left;
   margin: 10px;
-
+}
+.card, img{
+     border-radius: 6px 6px 0 0;
 }
 .card:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
@@ -193,4 +192,11 @@ button {
 button:hover {
   background-color: #408cffc2;
   color: black;
+}
+
+.main-content{
+  margin: 50px;
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
