@@ -135,6 +135,9 @@ a {
     position: relative;
     margin: 0px 10px auto;
   }
+  .main-content{
+     padding-top: 200px;
+  }
 }
 
 
@@ -156,9 +159,12 @@ a {
   font-size: 16px;
   font-family: Montserrat;
   margin: 40px;
+  top: -400px;
+  position: relative;
 }
 .card, img{
      border-radius: 6px 6px 0 0;
+     box-shadow: 0 2px 4px 0 rgb(0 0 0 / 70%);
 }
 .card:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
@@ -166,6 +172,9 @@ a {
 .container{
   padding: 2px 16px;
   padding-bottom: 20px;
+}
+.container li{
+  list-style: none;
 }
 
 button {
@@ -210,4 +219,6 @@ header{
   position: relative;
   overflow: hidden;
   border-radius: 0 0 85% 85% / 30%;
+  filter: blur(8px);
+-webkit-filter: blur(1.2px);
 }
