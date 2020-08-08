@@ -175,7 +175,10 @@ a {
 }
 .container li{
   list-style: none;
+  text-align: justify;
+  display: flex;
 }
+
 
 button {
   display: inline-block;
