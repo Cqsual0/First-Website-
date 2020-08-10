@@ -5,7 +5,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: #131212;
 }
 
 .nav {
@@ -174,11 +174,33 @@ a {
   padding-bottom: 20px;
 }
 .container li{
+  padding-bottom: 10px;
   list-style: none;
   text-align: justify;
   display: flex;
 }
 
+.blue-text{
+  color: #0085fc!important;
+  font-weight: bold;
+  top: -12px;
+  position: relative;
+}
+.blue-text::after {
+    background-color: #000000;
+    bottom: -10px;
+    content: '';
+    display: block;
+    height: 2.5px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,0);
+    width: 60px;
+}
+
+.header-text{
+  font-size: 18px;
+}
 
 button {
   display: inline-block;
