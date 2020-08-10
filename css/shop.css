@@ -265,6 +265,7 @@ header{
 }
 
 .header-text h1{
+  padding-bottom: 60px;
   color: #fff;
   text-align: center;
   top: -300px;
@@ -282,6 +283,6 @@ header{
   text-emphasis-style: double-circle;
   font-weight: 600;
   text-align: center;
-  top: -400px;
+  top: -450px;
   position: relative;
 }
