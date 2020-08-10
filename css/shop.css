@@ -138,6 +138,18 @@ a {
   .main-content{
      padding-top: 200px;
   }
+  .header-text h1{
+    color: #fff;
+    text-align: center;
+    top: -300px;
+    position: relative;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 0px;
+    text-transform: uppercase;
+  }
 }
 
 
@@ -173,6 +185,10 @@ a {
   padding: 2px 16px;
   padding-bottom: 20px;
 }
+.container i{
+  padding-right: 10px;
+}
+
 .container li{
   padding-bottom: 10px;
   list-style: none;
@@ -231,8 +247,8 @@ button:hover {
 .main-content{
   margin: 50px;
   display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 header{
   background: url("image/shaped.jpg");
@@ -246,4 +262,26 @@ header{
   border-radius: 0 0 85% 85% / 30%;
   filter: blur(8px);
 -webkit-filter: blur(1.2px);
+}
+
+.header-text h1{
+  color: #fff;
+  text-align: center;
+  top: -300px;
+  position: relative;
+  font-weight: 600;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 45px;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+.header p{
+  color: #fff;
+  text-emphasis-style: double-circle;
+  font-weight: 600;
+  text-align: center;
+  top: -400px;
+  position: relative;
 }
