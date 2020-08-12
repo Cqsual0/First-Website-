@@ -157,7 +157,6 @@ a {
   .header-content{
     margin: 10px;
     position: relative;
-    top: -30px;
   }
 }
 
@@ -258,12 +257,12 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  
+
 }
-header{
-  background: url("image/shaped.jpg");
+header img{
   position: relative;
-  padding-bottom: 50px;
+  height: 400px;
+  width: 100%;
 }
 
 .header{
