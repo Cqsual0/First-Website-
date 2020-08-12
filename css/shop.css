@@ -136,7 +136,7 @@ a {
     margin: 0px 10px auto;
   }
   .main-content{
-     padding-top: 200px;
+     position: relative;
   }
   .header-text h1{
     color: #fff;
@@ -149,6 +149,15 @@ a {
     font-size: 25px;
     margin: 0px;
     text-transform: uppercase;
+  }
+  .header{
+    position: relative;
+    top: 20px;
+  }
+  .header-content{
+    margin: 10px;
+    position: relative;
+    top: -30px;
   }
 }
 
@@ -249,23 +258,22 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  
 }
 header{
   background: url("image/shaped.jpg");
-  text-align: center;
-  width: 100%;
-  height: auto;
-  background-size: cover;
-  background-attachment: fixed;
   position: relative;
-  overflow: hidden;
-  border-radius: 0 0 85% 85% / 30%;
-  filter: blur(8px);
--webkit-filter: blur(1.2px);
+  padding-bottom: 50px;
+}
+
+.header{
+  border-top: 1px solid rgb(255 255 255);
+  position: relative;
+  top: 20px;
 }
 
 .header-text h1{
-  padding-bottom: 60px;
+  padding-bottom: 200px;
   color: #fff;
   text-align: center;
   top: -300px;
@@ -280,9 +288,40 @@ header{
 
 .header p{
   color: #fff;
-  text-emphasis-style: double-circle;
-  font-weight: 600;
   text-align: center;
+  top: -500px;
+  position: relative;
+}
+
+.stars{
   top: -450px;
   position: relative;
+  font-weight: 600;
+  text-align: center;
+}
+
+.stars i{
+  color: #0085fc;
+  width: 16px;
+  padding-bottom: 20px;
+}
+
+.header-icons{
+  color: #fff;
+  text-align: center;
+  top: -550px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.header-icons i{
+  background-color: #0085fc;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.header-icons li{
+  list-style-type: none;
+  padding-left: 20px;
 }
