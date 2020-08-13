@@ -151,8 +151,6 @@ a {
     text-transform: uppercase;
   }
   .header{
-    position: relative;
-    top: 20px;
   }
   .header-content{
     margin: 10px;
@@ -257,18 +255,6 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
-}
-header img{
-  position: relative;
-  height: 400px;
-  width: 100%;
-}
-
-.header{
-  border-top: 1px solid rgb(255 255 255);
-  position: relative;
-  top: 20px;
 }
 
 .header-text h1{
@@ -285,6 +271,25 @@ header img{
   text-transform: uppercase;
 }
 
+.video-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  -webkit-tap-highlight-color: rgb(165, 101, 207);
+  min-width: 490px;
+  height: 40vh;
+}
+
+.video-container {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: auto;
+  min-height: 100%;
+  min-width: 490px;
+}
 .header p{
   color: #fff;
   text-align: center;
