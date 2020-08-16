@@ -435,7 +435,7 @@ li #caption1, #caption2 {
   width: calc(100% / 3);
   margin: 0 -2px;
   padding: 20px;
-  
+  box-sizing: border-box;
   flex-flow: row;
 }
 
