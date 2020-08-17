@@ -446,7 +446,7 @@ li #caption1, #caption2 {
 .title p{
   font-size: 16px;
   font-weight: normal;
-  text-align: center;
+  text-align: left;
   padding-top: 24px;
 }
 .title h1{
@@ -457,7 +457,20 @@ li #caption1, #caption2 {
   float: left;
   padding-left: 15px;
   text-align: center;
+  left: ;
   top:10px;
+}
+.underline{
+  position: relative;
+  margin: 15px;
+  bottom: 5px;
+  width: 240px;
+  height: 5px;
+  background: #2d6eff;
+}
+.main{
+  position: relative;
+  margin: 15px;
 }
 
 
