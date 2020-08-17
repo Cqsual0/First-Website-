@@ -429,14 +429,12 @@ li #caption1, #caption2 {
 .cen{
   max-width: 1200px;
   margin: auto;
-  overflow: hidden;
   padding: 20px;
   display: flex;
   width: calc(100% / 3);
   margin: 0 -2px;
   padding: 20px;
   box-sizing: border-box;
-  flex-flow: row;
 }
 
 .service img{
@@ -714,3 +712,9 @@ width: 34px;
 
 
 /* End services */
+
+.row-second{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
