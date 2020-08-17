@@ -266,7 +266,7 @@ li #caption1, #caption2 {
 }
 
 .second {
-  top: -445px;
+  top: -455px;
   position: relative;
 }
 
@@ -495,6 +495,10 @@ li #caption1, #caption2 {
   margin: 26px auto;
 }
 
+.content p{
+  font-size: 18px;
+}
+
 .row{
   display: flex;
   flex-wrap: wrap;
@@ -587,7 +591,7 @@ li #caption1, #caption2 {
   left: 200px;
 }
 .second {
-  top: -470px;
+  top: -475px;
   position: relative;
 }
 
