@@ -418,7 +418,6 @@ li #caption1, #caption2 {
   padding: 0px 0;
   background: #06080c;
   color: #fff;
-  text-align: center;
 }
 .inside{
   max-width: 1200px;
@@ -429,10 +428,12 @@ li #caption1, #caption2 {
 .inner-content{
   padding: 15px;
   display: block;
+  background-color: #25283b;
 }
 
-.inner-content img{
-  width: 48px;
+.title img{
+  width: 60px;
+  float: left;
 }
 
 .features{
@@ -442,15 +443,23 @@ li #caption1, #caption2 {
   padding: 15px;
 }
 
-.inner-content p{
+.title p{
   font-size: 16px;
   font-weight: normal;
+  text-align: center;
+  padding-top: 24px;
 }
 .title h1{
   font-size: 18px;
   font-weight: 600;
   text-transform: capitalize;
+  position: relative;
+  float: left;
+  padding-left: 15px;
+  text-align: center;
+  top:10px;
 }
+
 
 
 
