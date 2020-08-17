@@ -414,51 +414,46 @@ li #caption1, #caption2 {
 
 /* Services CSS */
 
-.services{
-  background: #f1f1f1;
+.service-section{
+  padding: 0px 0;
+  background: #06080c;
+  color: #fff;
   text-align: center;
 }
-.services h1{
-  display: inline-block;
-  text-transform: uppercase;
-  border-bottom: 4px solid #3498db;
-  font-size: 20px;
-  padding-bottom: 10px;
-  margin-top: 40px;
-}
-.cen{
+.inside{
   max-width: 1200px;
   margin: auto;
-  padding: 20px;
-  display: flex;
-  width: calc(100% / 3);
-  margin: 0 -2px;
-  padding: 20px;
-  box-sizing: border-box;
+  overflow: hidden;
+  padding: 0 20px;
+}
+.inner-content{
+  padding: 15px;
+  display: block;
 }
 
-.service img{
-  display: block;
-margin-left: auto;
-margin-right: auto;
-width: 34px;
+.inner-content img{
+  width: 48px;
+  height: 100px;
 }
-.service h2{
+
+.features{
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.inner-content p{
+  font-size: 16px;
+  font-weight: normal;
+}
+.title h1{
   font-size: 18px;
-  text-transform: uppercase;
-  font-weight: 500;
-  margin: 0;
+  font-weight: 600;
+  text-transform: capitalize;
 }
-.service p{
-  color: gray;
-  font-size: 15px;
-  font-weight: 500;
-}
-@media screen and (max-width: 800px) {
-  .service{
-    width: 100%;
-  }
-}
+
+
 
 
 /* testimonials */
