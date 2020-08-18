@@ -412,7 +412,7 @@ li #caption1, #caption2 {
 
 .service-section{
   padding: 0px 0;
-  background: url("image/homebg1.jpg") center center no-repeat;
+  background: url("/image/homebg1.jpg") center center no-repeat;
   color: #fff;
 }
 .inside{
