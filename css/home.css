@@ -425,7 +425,8 @@ li #caption1, #caption2 {
 .inner-content{
   padding: 15px;
   display: block;
-  background-color: #25283b;
+  background-color: #1c1e2d;
+    box-shadow: 5px 3px 15px 5px #11131f;
 }
 
 .title img{
@@ -444,7 +445,7 @@ li #caption1, #caption2 {
   font-size: 16px;
   font-weight: normal;
   text-align: left;
-  padding-top: 24px;
+  padding: 15px 5px 10px 5px;
 }
 .title h1{
   font-size: 18px;
