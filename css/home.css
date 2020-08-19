@@ -533,8 +533,8 @@ li #caption1, #caption2 {
 
 @media screen and (max-width:960px) {
   .col{
-    flex: none;
-    max-width: none;
+    flex: 100%;
+    max-width: 100%;
   }
 }
 
