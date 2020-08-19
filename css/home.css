@@ -269,6 +269,11 @@ li #caption1, #caption2 {
   top: -455px;
   position: relative;
 }
+.header-liner{
+  background: url("/image/homebg-line.png") center center no-repeat;
+  background-size: cover;
+  min-height: 260px;
+}
 
 .third {
   top: -280px;
@@ -470,13 +475,6 @@ li #caption1, #caption2 {
   position: relative;
   margin: 15px;
 }
-
-
-
-
-
-/* testimonials */
-
 .testimonials{
   padding: 40px 0;
   background: #06080c;
