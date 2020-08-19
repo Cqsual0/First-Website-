@@ -271,8 +271,9 @@ li #caption1, #caption2 {
 }
 .header-liner{
   background: url("/image/homebg-line.png") center center no-repeat;
-  background-size: cover;
-  min-height: 260px;
+  background-size: auto;
+  min-height: 200px;
+  margin-top: 50px;
 }
 
 .third {
