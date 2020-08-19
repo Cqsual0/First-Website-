@@ -272,7 +272,7 @@ li #caption1, #caption2 {
 .header-liner{
   background: url("/image/homebg-line.png") center center no-repeat;
   background-size: auto;
-  min-height: 200px;
+  min-height: 270px;
   margin-top: 50px;
 }
 
@@ -421,6 +421,8 @@ li #caption1, #caption2 {
   background: url("/image/homebg1.jpg") center center no-repeat;
   color: #fff;
   background-size: cover;
+  top: -55px;
+    position: relative;
 }
 .inside{
   max-width: 1430px;
