@@ -414,6 +414,30 @@ li #caption1, #caption2 {
   margin-top: 5px;
 }
 
+.submit-button{
+  width: 46px;
+    height: 42px;
+    top: 35.8px;
+    position: relative;
+}
+#form-username{
+  padding: 10px 120px 10px 10px;
+  font-family: montserrat,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.form-inner{
+  bottom: 60px;
+position: relative;
+padding-left: 50px;
+}
+.liner-inside h2{
+  padding: 50px;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    font-size: 28px;
+}
 /* Services CSS */
 
 .service-section{
