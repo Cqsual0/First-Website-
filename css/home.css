@@ -421,7 +421,7 @@ li #caption1, #caption2 {
   background: url("/image/homebg1.jpg") center center no-repeat;
   color: #fff;
   background-size: cover;
-  top: -55px;
+  top: -500px;
     position: relative;
 }
 .inside{
