@@ -276,12 +276,13 @@ li #caption1, #caption2 {
   background-size: auto;
   min-height: 270px;
   position: relative;
-  top: -700px;
+  top: -555px;
 }
 .header-liner img{
   position: relative;
-  padding: 25px;
-  right: 30%;
+  max-width: 1400px;
+  bottom: 100px;
+  float: left;
 }
 
 .third {
