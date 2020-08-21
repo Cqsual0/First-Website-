@@ -274,6 +274,8 @@ li #caption1, #caption2 {
   background-size: auto;
   min-height: 270px;
   margin-top: 50px;
+  position: relative;
+  top: -655px;
 }
 
 .third {
