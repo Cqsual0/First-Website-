@@ -281,8 +281,8 @@ li #caption1, #caption2 {
 .header-liner img{
   position: relative;
   max-width: 1400px;
-  bottom: 100px;
-  float: left;
+  bottom: 80px;
+  margin-left: -320px;
 }
 
 .third {
