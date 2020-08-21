@@ -278,6 +278,11 @@ li #caption1, #caption2 {
   position: relative;
   top: -700px;
 }
+.header-liner img{
+  position: relative;
+  padding: 25px;
+  right: 30%;
+}
 
 .third {
   top: -280px;
