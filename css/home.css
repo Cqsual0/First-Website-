@@ -413,7 +413,9 @@ li #caption1, #caption2 {
 /* --- Start of sever-list --- */
 
 .bg-unbanned{
-  background: #222;
+  background: #161829;
+  top: -480px;
+  position: relative;
 }
 .container-un{
   margin-top: 30px;
@@ -442,8 +444,7 @@ text-transform: capitalize;
   padding-left: 5px;
 }
 .sever-logo-item img{
-  width: 128px;
-  height: 248px;
+  width: 248px;
   margin-left: 20px;
   margin-right: 20px;
   display: inline-block;
