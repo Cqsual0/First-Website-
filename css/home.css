@@ -410,7 +410,33 @@ li #caption1, #caption2 {
 .des button {
   margin-top: 5px;
 }
+/* --- Start of sever-list --- */
 
+.bg-unbanned{
+  background: #222;
+}
+.container-un{
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.headline-un h3{
+  margin-bottom: 40px;
+  z-index: 0;
+  text-align: center;
+  position: relative;
+}
+.list-inline-sever{
+  margin-left: 60px;
+  padding-left: 0;
+  list-style: none;
+}
+.sever-logo-item li{
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+/* --- End of sever-list --- */
 /* Services CSS */
 
 .service-section{
@@ -543,11 +569,6 @@ li #caption1, #caption2 {
     max-width: 100%;
   }
 }
-
-
-
-
-
 
 @media (max-width: 1440px) {
   .container {
