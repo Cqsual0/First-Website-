@@ -270,7 +270,7 @@ li #caption1, #caption2 {
   background-size: auto;
   min-height: 270px;
   position: relative;
-  top: -555px;
+  top: -400px;
 }
 
 .third {
@@ -418,7 +418,7 @@ li #caption1, #caption2 {
   background: url("/image/homebg2.jpg") center center no-repeat;
   color: #fff;
   background-size: cover;
-  top: -850px;
+  top: -450px;
     position: relative;
 }
 .inside{
