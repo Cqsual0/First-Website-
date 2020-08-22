@@ -264,12 +264,6 @@ li #caption1, #caption2 {
 #reviews img {
   border-radius: 6px;
 }
-.liner-image img{
-  position: relative;
-  right: 40%;
-  max-width: 1400px;
-  margin: 50px auto;
-}
 
 .header-liner{
   background: url("/image/homebg-line.png") center center no-repeat;
@@ -277,12 +271,6 @@ li #caption1, #caption2 {
   min-height: 270px;
   position: relative;
   top: -555px;
-}
-.header-liner img{
-  position: relative;
-  max-width: 1400px;
-  bottom: 80px;
-  margin-left: -320px;
 }
 
 .third {
