@@ -419,7 +419,8 @@ li #caption1, #caption2 {
   color: #fff;
   background-size: cover;
   top: -450px;
-    position: relative;
+  padding-bottom: 5px;
+  position: relative;
 }
 .inside{
   max-width: 1430px;
