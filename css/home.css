@@ -435,7 +435,7 @@ text-transform: capitalize;
   padding-left: 0;
   list-style: none;
 }
-.sever-logo-item li{
+.sever-logo-item{
   list-style: none;
   display: inline-block;
   padding-right: 5px;
