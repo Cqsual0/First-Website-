@@ -274,7 +274,7 @@ li #caption1, #caption2 {
 }
 
 .third {
-  top: -400px;
+  top: -450px;
   position: relative;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -309,7 +309,7 @@ li #caption1, #caption2 {
   text-align: left;
   min-width: 490px;
   position: relative;
-  top: -280px;
+  top: -450px;
 }
 
 .fourth ul {
@@ -415,7 +415,7 @@ li #caption1, #caption2 {
 .bg-unbanned{
   background: url("/image/homebg2.jpg") center center no-repeat;
   background-size: cover;
-  top: -400px;
+  top: -450px;
   position: relative;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
