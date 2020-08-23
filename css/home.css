@@ -282,7 +282,7 @@ li #caption1, #caption2 {
   background-image: url("https://shockbyte.com/assets/img/slide/bridge.png");
   background-position: center;
   background-repeat: no-repeat;
-  text-align: right;
+  text-align: left;
   color: white;
   min-width: 490px;
   padding: 100px 30px;
@@ -297,6 +297,7 @@ li #caption1, #caption2 {
 .third p {
   line-height: 30px;
   font-weight: 50;
+  width: 60%;
 }
 
 .fourth {
