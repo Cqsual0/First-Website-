@@ -274,7 +274,7 @@ li #caption1, #caption2 {
 }
 
 .third {
-  top: -280px;
+  top: -400px;
   position: relative;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -413,7 +413,7 @@ li #caption1, #caption2 {
 /* --- Start of sever-list --- */
 
 .bg-unbanned{
-  background: url("/image/homebg1.jpg") center center no-repeat;
+  background: url("/image/homebg2.jpg") center center no-repeat;
   background-size: cover;
   top: -400px;
   position: relative;
