@@ -311,6 +311,7 @@ li #caption1, #caption2 {
   min-width: 490px;
   position: relative;
   top: -450px;
+  padding-bottom: 50px;
 }
 
 .fourth ul {
@@ -414,12 +415,11 @@ li #caption1, #caption2 {
 /* --- Start of sever-list --- */
 
 .bg-unbanned{
-  background: url("/image/homebg2.jpg") center center no-repeat;
-  background-size: cover;
-  top: -450px;
+  background: #0d0e10;
+  top: -480px;
   position: relative;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
 }
 .container-un{
   margin-top: 30px;
