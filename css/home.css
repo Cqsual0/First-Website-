@@ -413,7 +413,8 @@ li #caption1, #caption2 {
 /* --- Start of sever-list --- */
 
 .bg-unbanned{
-  background: #161829;
+  background: url("/image/homebg1.jpg") center center no-repeat;
+  background-size: cover;
   top: -450px;
   position: relative;
   border-top: 1px solid #fff;
