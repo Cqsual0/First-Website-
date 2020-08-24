@@ -2,11 +2,30 @@
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: black;
 }
-
-container{
-  background: red;
+#headerwrapper{
+  padding: 30px 50px;
+}
+.container-fluid{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row{
+  display: flex;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+margin-right: -15px;
+margin-left: -15px;
+}
+.img-skincoin{
+  width: 62px;
+  height: 62px;
+}
+.page{
+  background-color: red;
 }
 .inner{
   background-color: #06080c;
