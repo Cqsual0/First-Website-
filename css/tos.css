@@ -5,6 +5,7 @@
 }
 #headerwrapper{
   padding: 30px 50px;
+  background: #0c0e13;
 }
 .container-fluid{
   width: 100%;
@@ -21,15 +22,27 @@ margin-right: -15px;
 margin-left: -15px;
 }
 .img-skincoin{
-  width: 62px;
-  height: 62px;
+  width: 128px;
+  height: 128px;
 }
-.page{
-  background-color: red;
+.col{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+ text-align: center;
+}
+.col h2{
+  color: #f2f2f2;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
 }
 .inner{
-  background-color: #06080c;
-  margin: 100px;
+  border-radius: 6px;
+  padding: 30px;
+  background-color: #141b27;
+  margin-top: 60px;
   text-align: left;
 }
 .inner h2 p ol li{
