@@ -16,10 +16,10 @@
 }
 .row{
   display: flex;
--ms-flex-wrap: wrap;
-flex-wrap: wrap;
-margin-right: -15px;
-margin-left: -15px;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 .img-skincoin{
   width: 128px;
@@ -27,10 +27,10 @@ margin-left: -15px;
 }
 .col{
   display: block;
- margin-left: auto;
- margin-right: auto;
- width: 50%;
- text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
 }
 .col h2{
   color: #f2f2f2;
@@ -60,4 +60,15 @@ margin-left: -15px;
 }
 .inner ol{
   color: #f2f2f2;
+}
+@media screen and (max-width:960px) {
+  .container-fluid {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#headerwrapper {
+    padding: 30px 100px;
+    background: #0c0e13;
+}
 }
