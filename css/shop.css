@@ -5,7 +5,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #131212;
+  background: #0f0f17;
 }
 
 .nav {
@@ -251,6 +251,7 @@ button:hover {
 }
 
 .main-content{
+  padding-top: 400px;
   margin: 50px;
   display: flex;
   flex-wrap: wrap;
@@ -270,15 +271,34 @@ button:hover {
   margin: 0px;
   text-transform: uppercase;
 }
-
-.video-wrapper {
-  position: relative;
-  overflow: hidden;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-  -webkit-tap-highlight-color: rgb(165, 101, 207);
-  min-width: 490px;
-  height: 40vh;
+.container{
+  text-align: center;
+  padding-top: 50px;
 }
+
+.header-content h3{
+  color: #fff;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 44px;
+}
+.header-content h2{
+  font-size: 50px;
+  line-height: 0px;
+  color: #fff;
+}
+.header-content p{
+  color: #adafca;
+  font-size: 18px;
+  line-height: 46px;
+  font-weight: 500;
+}
+@media screen and (max-width: 767px){
+  .header-content h3 {
+      font-size: 18px;
+    }
+}
+
 
 .video-container {
   position: relative;
@@ -295,19 +315,6 @@ button:hover {
   text-align: center;
   top: -500px;
   position: relative;
-}
-
-.stars{
-  top: -450px;
-  position: relative;
-  font-weight: 600;
-  text-align: center;
-}
-
-.stars i{
-  color: #0085fc;
-  width: 16px;
-  padding-bottom: 20px;
 }
 
 .header-icons{
