@@ -162,7 +162,7 @@
         <li><i class="fas fa-check-circle"></i> Unbanned most severs </li>
         </ul>
         <button
-          id="checkout-button-price_1HKKDhCg61ptv6FGNaz7plDv"
+          id="checkout-button-price_1HKyHbCg61ptv6FGDB3KdBir"
           role="link"
           type="button"
         >
@@ -181,20 +181,20 @@
 (function() {
   var stripe = Stripe('pk_live_HRTRp531p1787iItUVRJ2jeB009jryCMXp');
 
-  var checkoutButton = document.getElementById('checkout-button-price_1HKKDhCg61ptv6FGNaz7plDv');
+  var checkoutButton = document.getElementById('checkout-button-price_1HKyHbCg61ptv6FGDB3KdBir');
   checkoutButton.addEventListener('click', function () {
     // When the customer clicks on the button, redirect
     // them to Checkout.
     stripe.redirectToCheckout({
-      lineItems: [{price: 'price_1HKKDhCg61ptv6FGNaz7plDv', quantity: 1}],
+      lineItems: [{price: 'price_1HKyHbCg61ptv6FGDB3KdBir', quantity: 1}],
       mode: 'payment',
       // Do not rely on the redirect to the successUrl for fulfilling
       // purchases, customers may not always reach the success_url after
       // a successful payment.
       // Instead use one of the strategies described in
       // https://stripe.com/docs/payments/checkout/fulfillment
-      successUrl: window.location.protocol + '//skincoin.me/payment/success',
-      cancelUrl: window.location.protocol + '//skincoin.me/payment/canceled',
+      successUrl: window.location.protocol + '//skincoin.me/shop-canceled',
+      cancelUrl: window.location.protocol + '//skincoin.me/shop-canceled',
     })
     .then(function (result) {
       if (result.error) {
