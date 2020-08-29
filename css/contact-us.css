@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   background: #0f0f17;
+  color: #fff;
 }
 
 .nav {
@@ -187,15 +188,15 @@ a {
 .card:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
 }
-.container{
+.{
   padding: 2px 16px;
   padding-bottom: 20px;
 }
-.container i{
+. i{
   padding-right: 10px;
 }
 
-.container li{
+. li{
   padding-bottom: 10px;
   list-style: none;
   text-align: justify;
@@ -272,8 +273,51 @@ button:hover {
   text-transform: uppercase;
 }
 .container{
-  text-align: center;
-  padding-top: 50px;
+  width: 40%;
+  padding: 40px;
+  background: #fff;
+  margin: 50px auto;
+  font-family: Montserrat;
+}
+.container h2{
+  padding-bottom: 20px;
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
+}
+.container .inputbox input,
+.container .inputbox textarea{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+.container p{
+  color: #000;
+}
+.container .inputbox span{
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+}
+.container .inputbox input:focus span,
+.container .inputbox input:valid span{
+  color: #e91e63;
+  font-size: 12px;
+  transform: rotateY(-20px);
+}
+#textarea{
+  font-size: 14px;
+  font-family: Montserrat;
 }
 
 .header-content h3{
@@ -298,7 +342,6 @@ button:hover {
       font-size: 18px;
     }
 }
-
 
 .video-container {
   position: relative;

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=.7">
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
-  <link href="./css/shop.css" rel="stylesheet" type="text/css">
+  <link href="./css/contact-us.css" rel="stylesheet" type="text/css">
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/6ee8fbe20c.js" crossorigin="anonymous"></script>
@@ -75,23 +75,23 @@
     </ul>
   </div>
 
+<div class="container">
+  <p>
   <form action="mail.php" method="POST" target="_blank">
-  <p>Name</p> <input type="text" name="name">
-  <p>Email</p> <input type="text" name="email">
-  <p>Phone</p> <input type="text" name="phone">
-
-  <p>Website</p> <input type="text" name="website">
+    <h2>CONTACT US</h2>
+  <p>Name</p> <input type="text" name="name" placeholder="Name" required="required">
+  <p>Email</p> <input type="text" name="email"  placeholder="E-Mail" required="required">
 
   <p>Priority</p>
-  <select name="priority" size="1">
-  <option value="Low">Low</option>
+  <select name="priority" required="required" size="1">
+  <option value="Low" >Low</option>
   <option value="Normal">Normal</option>
   <option value="High">High</option>
   </select>
   <br />
 
   <p>Type</p>
-  <select name="type" size="1">
+  <select name="type" required="required" size="1">
   <option value="update">Website Issue</option>
   <option value="change">Suggestions</option>
   <option value="addition">Problem/Issue</option>
@@ -99,9 +99,13 @@
   </select>
   <br />
 
-  <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+<div class="inputbox">
+  <p>Message</p><textarea id="textarea" name="message" required="required" rows="6" cols="25"></textarea><br />
   <input type="submit" value="Send"><input type="reset" value="Clear">
   </form>
+  </p>
+  </div>
+  </div>
 
     <!-- Footer -->
     <div class="fourth">
