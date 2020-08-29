@@ -1,8 +1,11 @@
 body {
+  position: relative;
+  height: 1000px;
+  overflow: overlay;
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: black;
+  background: #0f0f17;
 }
 
 .nav {
@@ -47,62 +50,18 @@ a {
   font-weight: 600;
   margin: 3px 0 0;
   height: 36px;
-  border-right: .11px solid rgba(36, 36, 36, 0.712);
   cursor: pointer;
   font-size: 10px;
 }
 
 .nav ul li:hover {
-  border-bottom: 7px solid rgb(165, 101, 207);
-}
-
-.header {
-  text-align: center;
-  color: white;
+  border-bottom: 7px solid #0066d0;
 }
 
 #navUL img {
-  width: 50px;
+  width: 80px;
   position: relative;
-  bottom: 20px;
-}
-
-button {
-  border-radius: 5px;
-  border: 1px solid rgb(165, 101, 207);
-  color: white;
-  background-color: rgba(0, 0, 0, 0.25);
-  padding: 15px;
-  padding-top: 15px;
-  padding-right: 20px;
-  padding-bottom: 15px;
-  padding-left: 20px;
-  text-transform: uppercase;
-  border: 1px solid rgb(165, 101, 207);
-  font-size: 14px;
-  transition: .2s ease-in-out;
-  -webkit-transition: .2s ease-in-out;
-  cursor: pointer;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-button:hover {
-  background-color: rgb(165, 101, 207);
-  color: white;
-}
-
-.second p {
-  color: white;
-  font-weight: bold;
-}
-
-.second {
-  padding-bottom: 400px;
-  min-height: 330px;
-  min-width: 490px;
-  border-bottom: 1px solid rgb(165, 101, 207);
-  ;
+  bottom: 35px;
 }
 
 .fourth {
@@ -117,7 +76,7 @@ button:hover {
 }
 
 .fourth ul {
-  list-style-type: none;
+  -style-type: none;
   min-width: 490px;
   padding: 0;
   margin: 0;
@@ -129,6 +88,7 @@ button:hover {
 }
 
 .fourth ul h4 {
+  padding-right: 50px;
   color: #9b9b9b;
   font-weight: 500;
   margin-bottom: -15px;
@@ -141,7 +101,6 @@ button:hover {
 
 #logo img {
   width: 100px;
-  margin-top: 20px;
   padding: 0;
 }
 
@@ -156,47 +115,224 @@ button:hover {
 }
 
 .fourth li a:hover {
-  color: rgb(165, 101, 207);
+  color:#4378d9;
 }
 
-#login:hover {
-  border-bottom: 5px solid rgb(165, 101, 207);
+
+
+
+#discord img {
+  width: 48px !important;
+  margin-top: 20px;
+  padding: 5px;
 }
 
-@media only screen and (max-width: 600px) {
-  #login {
-    float: left;
-    top: 10px;
-    border: 1px solid white;
-    padding: 10px;
+@media screen and (max-width: 960px) {
+  #discord img{
+    width: 48px !important;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    margin: 0px 10px auto;
+  }
+  .main-content{
+     position: relative;
+  }
+  .header-text h1{
+    color: #fff;
+    text-align: center;
+    top: -300px;
+    position: relative;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 0px;
+    text-transform: uppercase;
+  }
+  .header{
+  }
+  .header-content{
+    margin: 10px;
+    position: relative;
   }
 }
 
-.cards {
-  border: solid black 3px;
-  position: absolute;
-  width: 17%;
-  border-radius: 5px;
-  border-radius: 5px;
+
+/* Start services */
+
+.warp{
+  width: 1000px;
+  margin: auto;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0 ,0.6);
+  transition: 0.4s;
+  width: 300px;
+  background: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-family: Montserrat;
   margin: 40px;
-  box-shadow: 2px 2px 10px black;
-  z-index: 10;
+  top: -400px;
+  position: relative;
 }
-
-.image img {
-  width: 100%;
-  border-radius: 5px;
+.card, img{
+     border-radius: 6px 6px 0 0;
+     box-shadow: 0 2px 4px 0 rgb(0 0 0 / 70%);
 }
-
-.title {
-  text-align: center;
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
 }
-
-.des {
-  text-align: center;
+.container{
+  padding: 2px 16px;
   padding-bottom: 20px;
 }
+.container i{
+  padding-right: 10px;
+}
 
-.des button {
-  margin-top: 5px;
+.container li{
+  padding-bottom: 10px;
+  list-style: none;
+  text-align: justify;
+  display: flex;
+}
+
+.blue-text{
+  color: #0085fc!important;
+  font-weight: bold;
+  top: -12px;
+  position: relative;
+}
+.blue-text::after {
+    background-color: #000000;
+    bottom: -10px;
+    content: '';
+    display: block;
+    height: 2.5px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,0);
+    width: 60px;
+}
+
+.header-text{
+  font-size: 18px;
+}
+
+button {
+  display: inline-block;
+    padding: 16px 20px;
+    cursor: pointer;
+    color: #000000;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #0066d0;
+    border: 2px solid #0066d0;
+    border-radius: 3px;
+    /* border: black; */
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+}
+
+button:hover {
+  background-color: #408cffc2;
+  color: black;
+}
+
+.main-content{
+  padding-top: 400px;
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header-text h1{
+  padding-bottom: 200px;
+  color: #fff;
+  text-align: center;
+  top: -300px;
+  position: relative;
+  font-weight: 600;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 45px;
+  margin: 0px;
+  text-transform: uppercase;
+}
+.container{
+  text-align: center;
+  padding-top: 50px;
+}
+
+.header-content h3{
+  color: #fff;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 44px;
+}
+.header-content h2{
+  font-size: 50px;
+  line-height: 0px;
+  color: #fff;
+}
+.header-content p{
+  color: #adafca;
+  font-size: 18px;
+  line-height: 46px;
+  font-weight: 500;
+}
+@media screen and (max-width: 767px){
+  .header-content h3 {
+      font-size: 18px;
+    }
+}
+
+
+.video-container {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: auto;
+  min-height: 100%;
+  min-width: 490px;
+}
+.header p{
+  color: #fff;
+  text-align: center;
+  top: -500px;
+  position: relative;
+}
+
+.header-icons{
+  color: #fff;
+  text-align: center;
+  top: -550px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.header-icons i{
+  background-color: #0085fc;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.header-icons li{
+  list-style-type: none;
+  padding-left: 20px;
 }
