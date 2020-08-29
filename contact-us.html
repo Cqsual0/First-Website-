@@ -75,13 +75,32 @@
     </ul>
   </div>
 
-  <p>SEND E-MAIL</p>
-  <form class="contact-form" action="php\contactform.php" method="post">
-  <input type="text" name="name" placeholder="Full name">
-  <input type="text" name="mail" placeholder="Subject">
-  <input type="text" name="Subject" placeholder="Subject">
-  <textarea name="message" placeholder="Message"></textarea>
-  <button type="submit" name="submit">SEND MAIL</button>
+  <form action="mail.php" method="POST">
+  <p>Name</p> <input type="text" name="name">
+  <p>Email</p> <input type="text" name="email">
+  <p>Phone</p> <input type="text" name="phone">
+
+  <p>Website</p> <input type="text" name="website">
+
+  <p>Priority</p>
+  <select name="priority" size="1">
+  <option value="Low">Low</option>
+  <option value="Normal">Normal</option>
+  <option value="High">High</option>
+  </select>
+  <br />
+
+  <p>Type</p>
+  <select name="type" size="1">
+  <option value="update">Website Issue</option>
+  <option value="change">Suggestions</option>
+  <option value="addition">Problem/Issue</option>
+  <option value="new">Other</option>
+  </select>
+  <br />
+
+  <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+  <input type="submit" value="Send"><input type="reset" value="Clear">
   </form>
 
     <!-- Footer -->
