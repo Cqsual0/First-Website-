@@ -11,5 +11,5 @@ if(isset($_POST['sumbit'])) {
   $txt -"You have received an e-mail from ".$name. ".\n\n".$message;
 
   mail($mailTo, $subject, $txt, $headers);
-  header("Location: contact-us.php?mailsent");
+  header("Location: contact-us.html?mailsent");
 }?>
