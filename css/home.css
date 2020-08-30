@@ -785,3 +785,33 @@ text-transform: uppercase;
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.show-back-to-top {
+    display: block;
+    right: 20px;
+    visibility: visible;
+  }
+  .back-to-top {
+    z-index: 100;
+position: fixed;
+/* position: sticky; */
+right: 2.5%;
+bottom: 20px;
+height: 45px;
+width: 45px;
+line-height: 44px;
+font-size: 16px;
+opacity: 1;
+z-index: 1111;
+/* visibility: hidden; */
+text-align: center;
+text-decoration: none;
+-webkit-transition: all 0.1s ease-in-out;
+transition: all 0.1s ease-in-out;
+background: #231e1e;
+color: #2d2d2d;
+}
+.fa-arrow-up:before {
+    content: "\f062";
+    line-height: 2.8;
+}
