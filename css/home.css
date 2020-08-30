@@ -809,7 +809,6 @@ text-decoration: none;
 -webkit-transition: all 0.1s ease-in-out;
 transition: all 0.1s ease-in-out;
 background: #231e1e;
-color: #2d2d2d;
 }
 .fa-arrow-up:before {
     content: "\f062";
