@@ -299,7 +299,6 @@ button:hover {
 .container .inputbox input,
 .container .inputbox textarea {
   width: 100%;
-  padding: 5px 0;
   font-size: 16px;
 }
 
