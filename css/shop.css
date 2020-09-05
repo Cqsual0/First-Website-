@@ -5,7 +5,6 @@ body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
-  background: #0f0f17;
 }
 
 .nav {
@@ -191,6 +190,8 @@ a {
 .container {
   padding: 2px 16px;
   padding-bottom: 20px;
+  background: url("/image/shopbg-1.png") center center no-repeat;
+  background-size: auto;
 }
 
 .container i {
@@ -255,7 +256,6 @@ button:hover {
 
 .main-content {
   padding-top: 400px;
-  margin: 100px;
   padding-left: 50px;
   padding-right: 50px;
   display: flex;
