@@ -394,7 +394,7 @@ button:hover {
 .text {
   text-align: left;
   position: relative;
-  width: 40%;
+  width: 60%;
 }
 .text p{
   color: #fff;
@@ -443,4 +443,47 @@ input{
     font-family: Montserrat;
     background-color: #0066d0;
     cursor: pointer;
+    border: none;
+}
+@media only screen and (max-width: 900px) {
+  .text {
+    width: 100%;
+    text-align: center;
+  }
+  .container{
+    display:;
+    justify-content: center;
+    align-content: center;
+    width: 60%;
+    margin-bottom: 150px;
+  }
+  form{
+    padding-top: 700px;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+   }
+}
+@media only screen and (max-width: 600px) {
+  .text {
+    width: 100%;
+    text-align: center;
+  }
+  .container{
+    display:;
+    justify-content: center;
+    align-content: center;
+    width: 60%;
+    margin-bottom: 150px;
+  }
+  form{
+    padding-top: 900px;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+   }
 }
