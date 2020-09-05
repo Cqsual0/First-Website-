@@ -5,6 +5,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
+  background: #0e0e0e;
 }
 
 .nav {
@@ -176,6 +177,7 @@ a {
   margin: 40px;
   top: -400px;
   position: relative;
+  padding-bottom: 30px;
 }
 
 .card, img {
@@ -189,10 +191,10 @@ a {
 
 .container-header {
   text-align: center;
-  padding: 2px 16px;
+  padding: 40px 16px;
   padding-bottom: 20px;
   background: url("/image/shopbg-1.png") center center no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 
 .container i {
