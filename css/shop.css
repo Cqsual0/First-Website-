@@ -170,7 +170,7 @@ a {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
   transition: 0.4s;
   width: 300px;
-  background: #fff;
+  background: #15181d;
   text-align: center;
   font-size: 16px;
   font-family: Montserrat;
@@ -178,6 +178,7 @@ a {
   top: -400px;
   position: relative;
   padding-bottom: 30px;
+  color: #f4f4f4;
 }
 
 .card, img {
@@ -193,8 +194,6 @@ a {
   text-align: center;
   padding: 40px 16px;
   padding-bottom: 20px;
-  background: url("/image/shopbg-1.png") center center no-repeat;
-  background-size: cover;
 }
 
 .container i {
@@ -228,6 +227,7 @@ a {
 }
 
 .header-text {
+  padding-bottom: 5px;
   font-size: 18px;
 }
 
@@ -282,7 +282,7 @@ button:hover {
 
 .container {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 10px;
 }
 
 .header-content h3 {
