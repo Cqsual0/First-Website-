@@ -212,18 +212,6 @@ a {
   position: relative;
 }
 
-.blue-text::after {
-  background-color: #000000;
-  bottom: -10px;
-  content: '';
-  display: block;
-  height: 2.5px;
-  left: 50%;
-  position: absolute;
-  transform: translate(-50%, 0);
-  width: 60px;
-}
-
 .header-text {
   font-size: 18px;
 }
