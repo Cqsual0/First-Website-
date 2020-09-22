@@ -4,8 +4,10 @@ body {
   overflow: overlay;
   font-family: 'Montserrat', sans-serif;
   margin: 0;
-  padding: 0;
-  background: #18181a;
+  background-image: url("image\shopbg2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .nav {
