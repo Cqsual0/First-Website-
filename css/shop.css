@@ -62,20 +62,22 @@ a {
   position: relative;
   bottom: 35px;
 }
-#banner_minecraft{
 
+#banner_minecraft {
   background: url(/image/banner.webp) center center no-repeat;
 }
+
 .banner {
   position: relative;
-    top: -28px;
-    height: 500px;
-    width: 100%;
-    text-transform: uppercase;
-    background-position: center;
-    background-size: cover;
-    z-index: 100;
+  top: -28px;
+  height: 500px;
+  width: 100%;
+  text-transform: uppercase;
+  background-position: center;
+  background-size: cover;
+  z-index: 100;
 }
+
 .fourth {
   background-color: #080808;
   border-top: 1px solid #191919;
@@ -178,7 +180,7 @@ a {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
   transition: 0.4s;
   width: 300px;
-  background: #1f1f21;
+  background: #0e0e23;
   text-align: center;
   font-size: 16px;
   font-family: Montserrat;
@@ -230,21 +232,21 @@ button {
   display: inline-block;
   padding: 16px 20px;
   cursor: pointer;
-  color: #fff;
+  color: #4378d9;
   line-height: 1;
   font-size: 14px;
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   text-align: center;
-  background-color: #0066d0;
+  background-color: #171717;
   border: 2px solid #0066d0;
   border-radius: 3px;
   /* border: black; */
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-transition: color .2s;
-  transition: color .2s;
+  transition: color .8s;
 }
 
 button:hover {
