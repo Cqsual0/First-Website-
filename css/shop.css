@@ -142,10 +142,6 @@ a {
     margin: 0px 10px auto;
   }
 
-  .main-content {
-    position: relative;
-  }
-
   .header-text h1 {
     color: #fff;
     text-align: center;
@@ -261,6 +257,9 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  position: relative;
+  background-color: #080808;
+  margin: 0;
 }
 
 .header-text h1 {
