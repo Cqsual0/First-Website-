@@ -62,7 +62,7 @@ a {
   bottom: 35px;
 }
 #banner_minecraft{
-  background-image: url("/SkinCoin/image/banner.webp") center center no-repeat;
+  background: url(/image/banner.webp) center center no-repeat;
 }
 .banner {
     height: 500px;
