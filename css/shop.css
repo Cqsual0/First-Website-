@@ -4,6 +4,7 @@ body {
   overflow: overlay;
   font-family: 'Montserrat', sans-serif;
   margin: 0;
+  background-color: #0c0c0c;
 }
 
 .nav {
@@ -62,13 +63,14 @@ a {
   bottom: 35px;
 }
 #banner_minecraft{
-  
+
   background: url(/image/banner.webp) center center no-repeat;
 }
 .banner {
+  position: relative;
+    top: -28px;
     height: 500px;
     width: 100%;
-    padding-top: 80px;
     text-transform: uppercase;
     background-position: center;
     background-size: cover;
@@ -198,7 +200,6 @@ a {
 
 .container-header {
   text-align: center;
-  padding: 40px 16px;
   padding-bottom: 20px;
 }
 
@@ -287,6 +288,7 @@ button:hover {
   font-size: 26px;
   font-weight: 700;
   line-height: 44px;
+  padding-top: 80px;
 }
 
 .header-content h2 {
