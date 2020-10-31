@@ -4,10 +4,6 @@ body {
   overflow: overlay;
   font-family: 'Montserrat', sans-serif;
   margin: 0;
-  background-image: url("image\shopbg2.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .nav {
@@ -65,7 +61,18 @@ a {
   position: relative;
   bottom: 35px;
 }
-
+#banner_minecraft{
+  background-image: url("/SkinCoin/image/banner.webp") center center no-repeat;
+}
+.banner {
+    height: 500px;
+    width: 100%;
+    padding-top: 80px;
+    text-transform: uppercase;
+    background-position: center;
+    background-size: cover;
+    z-index: 100;
+}
 .fourth {
   background-color: #080808;
   border-top: 1px solid #191919;
