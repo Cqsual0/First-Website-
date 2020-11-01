@@ -165,12 +165,9 @@ a {
     text-transform: uppercase;
   }
 
-  .header {}
-
-  .header-content {
-    margin: 10px;
-    position: relative;
-  }
+    .header-content h2 {
+        font-size: 40px;
+      }
 }
 
 /* Start services */
@@ -292,23 +289,23 @@ button:hover {
 
 .header-content h3 {
   color: #fff;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 44px;
-  padding-top: 80px;
+font-size: 20px;
+font-weight: 700;
+line-height: 8px;
+padding-top: 80px;
 }
 
 .header-content h2 {
-  font-size: 50px;
-  line-height: 0px;
-  color: #fff;
+  font-size: 40px;
+    line-height: 0px;
+    color: #fff;
 }
 
 .header-content p {
-  color: #adafca;
-  font-size: 18px;
-  line-height: 46px;
-  font-weight: 500;
+  color: #e1e3f9;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
 }
 
 @media screen and (max-width: 767px) {
