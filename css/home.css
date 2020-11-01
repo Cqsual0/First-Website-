@@ -167,7 +167,7 @@ button {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-transition: color .2s;
-  transition: color .2s;
+  transition: color .6s;
 }
 
 button:hover {

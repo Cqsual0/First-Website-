@@ -4,7 +4,7 @@ body {
   overflow: overlay;
   font-family: 'Montserrat', sans-serif;
   margin: 0;
-  background-color: #0c0c0c;
+  background-color: #0b0c0e;
 }
 
 .nav {
@@ -185,7 +185,7 @@ a {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
   transition: 0.4s;
   width: 300px;
-  background: #0e0e23;
+  background: #1c1e2d;
   text-align: center;
   font-size: 16px;
   font-family: Montserrat;
@@ -235,23 +235,23 @@ a {
 
 button {
   display: inline-block;
-  padding: 16px 20px;
-  cursor: pointer;
-  color: #4378d9;
-  line-height: 1;
-  font-size: 14px;
-  font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  background-color: #171717;
-  border: 2px solid #0066d0;
-  border-radius: 3px;
-  /* border: black; */
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: color .2s;
-  transition: color .8s;
+    padding: 16px 20px;
+    cursor: pointer;
+    color: #000000;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #0066d0;
+    border: 2px solid #0066d0;
+    border-radius: 3px;
+    /* border: black; */
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: color .2s;
+    transition: color .6s;
 }
 
 button:hover {
