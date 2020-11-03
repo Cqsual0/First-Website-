@@ -127,9 +127,26 @@
 		<a class="close" href="#">&times;</a>
 		<div class="content">
 			Thank to pop me out of that button, but now i'm done so you can close this window.
+      <div class="order-quantity">
+        <div class="quantity buttons_added">
+  <input id="minus" type="button" class="minus" value="-">
+  <input id="theInput" type="number" size="4" class="input-text qty text" title="Qty" value="1" min="0" step="1">
+  <input id="plus" type="button" class="plus" value="+">
+</div>
+<script>
+var input = document.getElementById('theInput');
+document.getElementById('plus').onclick = function(){
+    input.value = parseInt(input.value, 10) +1
+}
+document.getElementById('minus').onclick = function(){
+    input.value = parseInt(input.value, 10) -1
+}
+      </div>
 		</div>
 	</div>
 </div>
+</div>
+
 
 
     <div class="wrap">
