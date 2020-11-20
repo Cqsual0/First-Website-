@@ -121,31 +121,28 @@
         </div>
       </div>
     </div>
-    <div id="popup1" class="overlay">
+    <form id="popup1" class="overlay">
 	<div class="popup">
-		<h2>Here i am</h2>
+		<h2>Non Full Access</h2><br><h3>Stock: 42</h3>
 		<a class="close" href="#">&times;</a>
 		<div class="content">
-			Thank to pop me out of that button, but now i'm done so you can close this window.
+      Non Full Access accounts are primarily great for playing or giving to friends! You cannot change username, password or skin on these accounts. <br>
+      NFA account may have extras such as ranks, special features although it is not guaranteed. 
       <div class="order-quantity">
         <div class="quantity buttons_added">
-  <input id="minus" type="button" class="minus" value="-">
-  <input id="theInput" type="number" size="4" class="input-text qty text" title="Qty" value="1" min="0" step="1">
+  <input id="theInput" type="number" size="4" class="input-text qty text" title="Qty" value="20" min="0" step="1">
   <input id="plus" type="button" class="plus" value="+">
 </div>
 <script>
 var input = document.getElementById('theInput');
 document.getElementById('plus').onclick = function(){
-    input.value = parseInt(input.value, 10) +1
-}
-document.getElementById('minus').onclick = function(){
-    input.value = parseInt(input.value, 10) -1
+    input.value = parseInt(input.value, 10) +20
 }
 </script>
     </div>
 		</div>
 	</div>
-</div>
+</form>
 
 
     <div class="wrap">
