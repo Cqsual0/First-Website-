@@ -177,8 +177,11 @@ a {
   margin-top: 100px;
   justify-content: center;
 }
+.text-giant {
+  font-size: 18px;
+}
 
-.overlay {
+.order-overlay {
   position: absolute;
     top: 0;
     bottom: 0;
@@ -188,12 +191,9 @@ a {
     visibility: hidden;
     opacity: 0;
 }
-.overlay:target {
+.order-overlay:target {
   visibility: visible;
   opacity: 1;
-}
-.order-quantity{
-  padding: 20px;
 }
 #minus{
   height: 30px;
@@ -217,17 +217,22 @@ border-radius: 3px;
 padding: 20px;
 background: #fff;
 border-radius: 5px;
-width: 30%;
+width: 25%;
 background: #212438;
 height: 20%;
 position: relative;
 z-index: 1000;
+border: 2px solid #2d2d3c;
 }
 
 .popup h2 {
   margin-top: 2vh;
   color: #fff;
   font-family: Tahoma, Arial, sans-serif;
+}
+.popup h3{
+  color: #fff;
+  font-size: 14px;
 }
 .popup .close {
   position: absolute;
@@ -243,9 +248,10 @@ z-index: 1000;
   color: #f8f9fa;
 }
 .popup .content {
+  position: absolute;
   color: #fff;
   max-height: 30%;
-  overflow: auto;
+  padding: 20px;
 }
 
 @media screen and (max-width: 700px){

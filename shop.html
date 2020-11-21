@@ -109,29 +109,32 @@
           </div>
         </div>
       </div>
-      <form id="popup1" class="overlay">
+
+
+      <form id="popup1" class="order-overlay">
         <div class="popup">
-          <h2>Non Full Access</h2><br>
+          <h2>Non Full Access</h2>
           <h3>Stock: 42</h3>
           <a class="close" href="#">&times;</a>
           <div class="content">
-            Non Full Access accounts are primarily great for playing or giving to friends! You cannot change username, password or skin on these accounts. <br>
-            NFA account may have extras such as ranks, special features although it is not guaranteed.
-            <div class="order-quantity">
-              <div class="quantity buttons_added">
-                <input id="theInput" type="number" size="4" class="input-text qty text" title="Qty" value="20" min="0" step="1">
-                <input id="plus" type="button" class="plus" value="+">
-              </div>
-              <script>
-                var input = document.getElementById('theInput');
-                document.getElementById('plus').onclick = function() {
-                  input.value = parseInt(input.value, 10) + 20
-                }
-              </script>
+            <p>Non Full Access accounts are primarily great for playing or giving to friends! You cannot change username, password or skin on these accounts.</p>
+            <p>NFA account may have extras such as ranks, special features although it is not guaranteed.</p>
+            <div class="form-group">
+              <label name="price" for="price-label" value="0.04">Price</label>
+
             </div>
+            <div class="form-group">
+              <label for="quantity">Quantity
+                <span class="badge badge-primary quantity-label">200</span>
+              </label>
+              <input type="range" class="form-control" name="quantity" value="25" min="200" max="600" step="25">
+              <div class="text-right text-giant total"></div>
+            </div>
+
           </div>
         </div>
       </form>
+
 
 
       <div class="wrap">
@@ -336,6 +339,6 @@
 
 
 </body>
-</script>
+<script type="text/javascript" src="javascript\order-form.js"></script>
 
 </html>
