@@ -591,50 +591,102 @@ input{
 /*======================================
 *            Support Page - FAQ          *
 ======================================*/
-.accordion
-{
-  width: 800px;
+::selection{
+  background: rgb(0,123,255,0.3);
 }
-.accordion .contentBx
-{
-  position: relative;
-  margin: 10px 20px;
+.wrapper{
+  max-width: 600px;
+  padding: 0 20px;
 }
-.accordion .contentBx .label
-{
-  position: relative;
-  padding: 10px;
-  background: #2694af;
+.wrapper .parent-tab,
+.wrapper .child-tab{
+  margin-bottom: 8px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.18);
+}
+.wrapper .parent-tab label,
+.wrapper .child-tab label{
+  background: #007bff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   cursor: pointer;
+  border-radius: 3px;
+  position: relative;
+  z-index: 99;
+  transition: all 0.3s ease;
 }
-.accordion .contentBx .label::before
-{
-  content: '+'
+.wrapper .parent-tab label:hover{
+  background: #006fe6;
+}
+.parent-tab input:checked ~ label,
+.child-tab input:checked ~ label{
+  border-radius: 3px 3px 0 0;
+  background: #006fe6;
+}
+.wrapper label span{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-shadow: 0 -1px 1px #0056b3;
+}
+.wrapper .child-tab label span{
+  font-size: 17px;
+}
+.parent-tab label .icon{
+  position: relative;
+  height: 30px;
+  width: 30px;
+  font-size: 15px;
+  color: #007bff;
+  display: block;
+  background: #fff;
+  border-radius: 50%;
+  text-shadow: 0 -1px 1px #0056b3;
+}
+.wrapper .child-tab label .icon{
+  height: 27px;
+  width: 27px;
+}
+.parent-tab label .icon i{
   position: absolute;
   top: 50%;
-  right: 20px;
-  transform: translateY(-50%);
-  font-size: 1.5rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.accordion .contentBx .active .label::before
-{
-  content: '-';
+.parent-tab input:checked ~ label .icon i:before,
+.child-tab input:checked ~ label .icon i:before{
+  content: '\f068';
 }
-.accordion .contentBx .content
-{
-  position: relative;
-  padding: 10px;
-  background: #fff;
-  height: 0;
+.wrapper .parent-tab .content,
+.wrapper .child-tab .sub-content{
+  max-height: 0px;
   overflow: hidden;
-  transition: 0.5s;
-  overflow-y: auto;
+  background: #fff;
+  border-radius: 0 0 3px 3px;
+  transition: all 0.4s ease;
 }
-.accordion .contentBx .active .content
-{
-  height: 150px;
-  padding: 10px;
+.parent-tab input:checked ~ .content,
+.child-tab input:checked ~ .sub-content{
+  max-height: 100vh;
 }
+.tab-3 input:checked ~ .content{
+  padding: 15px 20px;
+}
+.parent-tab .content p,
+.child-tab .sub-content p{
+  padding: 15px 20px;
+  font-size: 16px;
+}
+.child-tab .sub-content p{
+  font-size: 15px;
+}
+input[type="radio"],
+input[type="checkbox"]{
+  display: none;
+}
+
 
 /*======================================
 *            Support Page - FAQ  END          *
