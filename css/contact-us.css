@@ -447,6 +447,140 @@ input{
     cursor: pointer;
     border: none;
 }
+
+/*** Contact Page ***/
+
+/* Contact Form */
+
+section.contact {
+  padding: 90px 0 60px;
+}
+
+.contact-form {
+  padding: 0;
+}
+
+.contact-form h3 {
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.contact-form p, .contact-form .form-group {
+  margin-bottom: 30px;
+}
+
+.contact-form textarea {
+  height: 162px;
+  padding: 15px 20px;
+}
+
+.contact-form .btn-contact {
+  width: 100%;
+}
+
+.contact-form .output_message_holder {
+  display: none;
+}
+
+.contact-form .output_message {
+  padding: 8px;
+  margin-bottom: 30px;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.contact-form .output_message.success {
+  background: #28a745;
+  padding: 15px;
+}
+
+.contact-form .output_message.success:before {
+  font-family: FontAwesome;
+  content: "\f14a";
+  padding-right: 10px;
+}
+
+.contact-form .output_message.error {
+  background: #dc3545;
+  padding: 15px;
+}
+
+.contact-form .output_message.error:before {
+  font-family: FontAwesome;
+  content: "\f071";
+  padding-right: 10px;
+}
+
+.contact-form .d-block {
+  display: block;
+}
+
+/* Contact Widget */
+
+.contact-page-info .contact-info-box-content h4 {
+  font-size: 17px;
+  margin-top: 0;
+  line-height: normal;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.contact-page-info .contact-info-box-content p {
+  font-size: 14px;
+}
+
+.contact-page-info .contact-info-box i.big-icon {
+  text-align: center;
+  float: left;
+  font-size: 30px;
+  border-radius: 50%;
+}
+
+.contact-page-info .contact-info-box .contact-info-box-content {
+  padding-left: 60px;
+  margin-bottom: 25px;
+}
+
+.contact-page-info .social-contact ul {
+  list-style-type: none;
+  margin-top: 28px;
+  padding: 0;
+}
+
+.contact-page-info .social-contact ul li {
+  display: inline-block;
+}
+
+.contact-page-info .social-contact ul li a i {
+  width: 35px;
+  height: 35px;
+  line-height: 36px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 50%;
+  margin: 0 10px 10px 0;
+}
+
+.contact-page-info .social-contact ul li.facebook a i {
+  background: #3b5998;
+}
+
+.contact-page-info .social-contact ul li.instagram a i {
+  background: #C70076;
+}
+
+.contact-page-info .social-contact ul li.google-plus a i {
+  background: #dd4b39;
+}
+
+
+
+
 @media only screen and (max-width: 900px) {
   .text {
     width: 100%;
