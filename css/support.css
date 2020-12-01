@@ -10,6 +10,19 @@ body {
   background: #080808;
   color: #fff;
 }
+.container-img{
+  position: absolute;
+  top: 73px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  overflow: hidden;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  -webkit-tap-highlight-color: rgb(165, 101, 207);
+  min-width: 490px;
+  height: 530px;
+}
 
 .nav {
   border-bottom: 7px solid #161616;
@@ -714,17 +727,7 @@ input[type="checkbox"]{
     align-content: center;
     width: 60%;
     margin-bottom: 150px;
-    position: absolute;
-    top: 73px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #000;
-    overflow: hidden;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-    -webkit-tap-highlight-color: rgb(165, 101, 207);
-    min-width: 490px;
-    height: 530px;
+
   }
   form{
     padding-top: 700px;
