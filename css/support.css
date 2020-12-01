@@ -612,7 +612,6 @@ input{
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
-  border-radius: 3px;
   position: relative;
   z-index: 99;
   transition: all 0.3s ease;
@@ -622,14 +621,14 @@ input{
 }
 .parent-tab input:checked ~ label,
 .child-tab input:checked ~ label{
-  border-radius: 3px 3px 0 0;
   background: #006fe6;
 }
 .wrapper label span{
-  color: #fff;
-  font-size: 18px;
-  font-weight: 500;
-  text-shadow: 0 -1px 1px #0056b3;
+  font-size: 16px;
+text-transform: uppercase;
+font-weight: 600;
+display: inline-block;
+width: calc(100% - 50px);
 }
 .wrapper .child-tab label span{
   font-size: 17px;
@@ -662,10 +661,12 @@ input{
 .wrapper .parent-tab .content,
 .wrapper .child-tab .sub-content{
   max-height: 0px;
-  overflow: hidden;
-  background: #fff;
-  border-radius: 0 0 3px 3px;
-  transition: all 0.4s ease;
+overflow: hidden;
+border-radius: 0 0 3px 3px;
+transition: all 0.4s ease;
+border-left: 1px solid #00a8ff;
+border-right: 1px solid #00a8ff;
+border-bottom: 1px solid #00a8ff;
 }
 .parent-tab input:checked ~ .content,
 .child-tab input:checked ~ .sub-content{
@@ -676,8 +677,9 @@ input{
 }
 .parent-tab .content p,
 .child-tab .sub-content p{
-  padding: 15px 20px;
-  font-size: 16px;
+  padding: 12px;
+    font-size: 14px;
+    margin-left: 2px;
 }
 .child-tab .sub-content p{
   font-size: 15px;
@@ -686,10 +688,19 @@ input[type="radio"],
 input[type="checkbox"]{
   display: none;
 }
+.sub-headings {
+    margin-top: -29px;
+    background-color: #080808;
+    float: left;
+    font-weight: 700;
+    font-size: 18px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    line-height: 1;
 
 
 /*======================================
-*            Support Page - FAQ  END          *
+*       Support Page - FAQ  END       *
 ======================================*/
 
 @media only screen and (max-width: 900px) {
@@ -703,6 +714,17 @@ input[type="checkbox"]{
     align-content: center;
     width: 60%;
     margin-bottom: 150px;
+    position: absolute;
+    top: 73px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    overflow: hidden;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    -webkit-tap-highlight-color: rgb(165, 101, 207);
+    min-width: 490px;
+    height: 530px;
   }
   form{
     padding-top: 700px;
