@@ -362,6 +362,30 @@ button:hover {
   font-weight: 500;
 }
 
+
+/*======================================
+*            Video-Wrapper          *
+======================================*/
+
+.video-wrapper{
+  position: absolute;
+  top: 73px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  overflow: hidden;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  -webkit-tap-highlight-color: rgb(165, 101, 207);
+  min-width: 490px;
+  height: 530px;
+}
+
+/*======================================
+*            Video-Wrapper          *
+======================================*/
+
+
 @media screen and (max-width: 767px) {
   .header-content h3 {
     font-size: 18px;
@@ -418,6 +442,7 @@ button:hover {
   font-weight: 500;
 }
 form{
+  z-index: 2000;
   padding-top: 120px;
   padding-left: 80px;
   width: 500px;
