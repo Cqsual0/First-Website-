@@ -390,17 +390,6 @@ button:hover {
   }
 }
 
-.video-container {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  height: auto;
-  min-height: 100%;
-  min-width: 490px;
-}
-
 .header p {
   color: #fff;
   text-align: center;
