@@ -397,14 +397,27 @@ height: 530px;
 *            Video-Wrapper          *
 ======================================*/
 
+/*======================================
+*            Header Liner        *
+======================================*/
 
+.header-liner {
+    background: url(/image/homebg-line.png) center center no-repeat;
+    background-size: auto;
+    min-height: 270px;
+    position: relative;
+    z-index: 10000;
+}
 
 /*======================================
-*            End of sever-list      *
+*            Header Liner        *
+======================================*/
+
+/*======================================
+*            sever-list           *
 ======================================*/
 .bg-unbanned {
   background: #0c0d10;
-  top: -480px;
   position: relative;
   border-top: 4px solid #1a1e27;
   border-bottom: 6px solid #15151f;
