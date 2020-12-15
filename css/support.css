@@ -280,10 +280,23 @@ max-width: 1400px;
   margin: 0 auto;
   font-family: Montserrat;
   max-width: 1400px;
+  display: block;
   }
 
   form{
     z-index: 2000;
+position: relative;
+margin-left: 25%;
+margin-right: 25%;
+width: 450px;
+right: 100px;
+  }
+  .container p{
+    font-size: 10px;
+    color: #c3bebe;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.9;
   }
 }
 
