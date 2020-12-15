@@ -267,12 +267,27 @@ button:hover {
 }
 
 .container {
-  padding: 40px;
+  padding: 40px 40px 20px 40px;
 margin: 0 auto;
 font-family: Montserrat;
 display: flex;
 max-width: 1400px;
 }
+
+@media only screen and (max-device-width: 667px) {
+  .container{
+    padding: 40px 40px 20px 40px;
+  margin: 0 auto;
+  font-family: Montserrat;
+  max-width: 1400px;
+  }
+
+  form{
+    z-index: 2000;
+  }
+}
+
+
 
 .container h2 {
   color: #0066d0;
