@@ -304,9 +304,9 @@ button:hover {
   }
 
   .text {
-    text-align: inherit;
-    position: relative;
-    width: auto;
+    text-align: inherit !important;
+    position: relative !important;
+    width: auto !important;
   }
 }
 
