@@ -16,7 +16,6 @@ body {
 /*======================================
 *         Shop - Star Background      *
 ======================================*/
-
 #stars {
 	content:"e";
   background: transparent;
@@ -93,6 +92,7 @@ body {
     transform: translateY(-2000px);
   }
 }
+
 
 /*======================================
 *         Shop - Star Background      *
