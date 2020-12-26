@@ -383,8 +383,8 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 position: absolute;
-background-color: #080808;
 margin: 0;
+z-index: 2000;
 }
 
 .header-text h1 {
