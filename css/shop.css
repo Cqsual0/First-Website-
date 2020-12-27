@@ -295,21 +295,26 @@ border-radius: 3px;
   position: absolute;
   }
 }
+.outside{
+  max-width: 300px;
+max-height: 415px;
+background: #121321;
+border-radius: 6px;
+position: relative;
+z-index: 30000;
+}
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
-    transition: 0.4s;
-    max-width: 300px;
-    max-height: 395px;
-    background: #121321;
-    font-size: 16px;
-    font-family: Montserrat;
-    margin: 40px;
-    top: -400px;
-    position: relative;
-    padding-bottom: 30px;
-    color: #f4f4f4;
-    z-index: 1000;
+  font-size: 16px;
+font-family: Montserrat;
+margin: 40px;
+top: -400px;
+position: relative;
+padding-bottom: 30px;
+color: #f4f4f4;
+z-index: 10000;
+background-color: rgba(0,0,0,.13);
+padding: 20px;
 }
 
 .card, img {
