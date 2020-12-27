@@ -291,7 +291,7 @@ border-radius: 3px;
   text-align: left;
   min-width: 490px;
   z-index: 20000;
-  margin-top: 2600px;
+  margin-top: 2900px;
   position: absolute;
   }
 }
@@ -303,20 +303,21 @@ border-radius: 6px;
 position: relative;
 z-index: 30000;
 }
-
 .card {
-  font-size: 16px;
-font-family: Montserrat;
-margin: 40px;
-top: -400px;
-position: relative;
-padding-bottom: 30px;
-color: #f4f4f4;
-z-index: 10000;
-background-color: rgba(0,0,0,.13);
-padding: 20px;
+  border-radius: 6px;
+    font-size: 16px;
+    font-family: Montserrat;
+    margin: 40px;
+    top: -400px;
+    position: relative;
+    color: #f4f4f4;
+    max-width: 300px;
+    max-height: 415px;
+    background: #121321;
 }
-
+.trustpilot-widget img {
+  padding: 10px;
+}
 .card, img {
   border-radius: 6px 6px 0 0;
   box-shadow: 0 2px 4px 0 rgb(0 0 0 / 70%);
