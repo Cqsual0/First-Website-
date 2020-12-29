@@ -228,14 +228,14 @@ border-radius: 3px;
 
 .popup {
   margin: 100px auto;
-    padding: 20px;
+    padding: 0px 20px;
     background: #fff;
     border-radius: 5px;
     width: 500px;
-    background: #20222f;
+    background: #121321;
     height: 400px;
     position: relative;
-    z-index: 10000;
+    z-index: 40000;
     border: 2px solid #1e1e27;
 }
 .bk-line{
@@ -245,9 +245,12 @@ border-radius: 3px;
     background-image: linear-gradient(to right, #567be2, #9cb9ef);
 }
 .popup h2 {
-  font-size: 1.2rem;
-  color: #fff;
-  font-family: Tahoma, Arial, sans-serif;
+  padding: 15px 10px;
+background-color: #1c1e27;
+border-radius: 5px;
+font-size: 1.2rem;
+color: #fff;
+font-family: 'Montserrat', sans-serif;
 }
 .popup h3{
   color: #fff;
@@ -255,13 +258,13 @@ border-radius: 3px;
 }
 .popup .close {
   position: absolute;
-  top: 20px;
-  right: 30px;
-  transition: all 200ms;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #333;
+top: 25px;
+right: 30px;
+transition: all 200ms;
+font-size: 30px;
+font-weight: bold;
+text-decoration: none;
+color: #ffffff;
 }
 .popup .close:hover {
   color: #f8f9fa;
@@ -301,7 +304,6 @@ max-height: 415px;
 background: #121321;
 border-radius: 6px;
 position: relative;
-z-index: 30000;
 }
 .card {
   border-radius: 6px;
