@@ -226,17 +226,37 @@ border: 2px #fff;
 border-radius: 3px;
 }
 
+.popup-price{
+  display: inline-block;
+    padding: 20px;
+    font-size: 14px;
+    color: #0085fc !important;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    background: #1b2233;
+}
+
+.popup-quantity{
+display: inline-block;
+    padding: 20px;
+    font-size: 14px;
+    color: #0085fc !important;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    background: #1b2233;
+    width: 80px;
+}
+
 .popup {
   margin: 100px auto;
     padding: 0px 20px;
-    background: #fff;
     border-radius: 5px;
-    width: 500px;
-    background: #121321;
-    height: 400px;
+    width: 300px;
+    background: #0c0c0c;
+    height: 430px;
     position: relative;
     z-index: 40000;
-    border: 2px solid #1e1e27;
+    border: 2px solid #101010;
 }
 .bk-line{
   width: 100%;
@@ -246,7 +266,7 @@ border-radius: 3px;
 }
 .popup h2 {
   padding: 15px 10px;
-background-color: #1c1e27;
+background-color: #0c0c0c;
 border-radius: 5px;
 font-size: 1.2rem;
 color: #fff;
@@ -316,6 +336,7 @@ position: relative;
     max-width: 300px;
     max-height: 415px;
     background: #121321;
+    z-index: 2000;
 }
 .trustpilot-widget img {
   padding: 10px;
@@ -350,6 +371,16 @@ position: relative;
 .header-text {
   padding-bottom: 5px;
   font-size: 18px;
+}
+
+.btn-primary {
+  margin: 0;
+    position: absolute;
+    top: 430px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 2px solid #2d6094;
 }
 
 button {
