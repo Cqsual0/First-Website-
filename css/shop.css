@@ -416,6 +416,24 @@ position: relative;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     border: 2px solid #2d6094;
+    display: inline-block;
+      padding: 16px 20px;
+      cursor: pointer;
+      color: #f8f8f8;
+      line-height: 1;
+      font-size: 14px;
+      font-weight: bold;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      background-color: #0066d0;
+      border: 2px solid #0066d0;
+      border-radius: 3px;
+      /* border: black; */
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-transition: color .2s;
+      transition: color .6s;
 }
 
 button {
