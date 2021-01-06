@@ -299,6 +299,34 @@ color: #ffffff;
 .content p{
   margin: 16px;
 }
+.order-form{
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+    z-index: 8000;
+    padding-top: 200px;
+}
+.order-form:target{
+  visibility: visible;
+  opacity: 1;
+}
+.order {
+  margin: 100px auto;
+    padding: 0px 20px;
+    border-radius: 5px;
+    width: 300px;
+    background: #0c0c0c;
+    height: 430px;
+    position: relative;
+    z-index: 40000;
+    border: 2px solid #101010;
+}
 
 @media screen and (max-width: 700px){
   .box{
