@@ -197,13 +197,16 @@ position: absolute;
 
 .order-overlay {
   position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.7);
-    visibility: hidden;
-    opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+  z-index: 8000;
+  padding-top: 200px;
 }
 .order-overlay:target {
   visibility: visible;
@@ -302,7 +305,7 @@ color: #ffffff;
     width: 70%;
   }
   .popup{
-    width: 70%;
+    width: 50%;
   }
   .fourth {
   background-color: #080808;
@@ -316,6 +319,9 @@ color: #ffffff;
   z-index: 20000;
   margin-top: 2900px;
   position: absolute;
+  }
+  .content p{
+  margin-block: 20px;
   }
 }
 .outside{
