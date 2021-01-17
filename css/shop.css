@@ -556,3 +556,7 @@ padding-top: 80px;
   list-style-type: none;
   padding-left: 20px;
 }
+.payment input{
+  padding: 5px;
+  margin: 10px;
+}
